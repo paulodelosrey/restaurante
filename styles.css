@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +6,54 @@ body {
 
 .nav {
     margin: 0;
+}
+
+.anuncio {
+    margin: 0;
     padding: 0;
     background-color: #bb4129;
-    height: 114px;
+    height: 54px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.domicilio {
+    margin: 0;
+    padding: 0;
+    color: #fffff5;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 2.5px;
+}
+
+.domicilio:hover {
+    text-decoration: underline;
+}
+
+.barra {
+    margin: 0;
+    padding: 0;
+    background-color: #fff8e8;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.marca {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
 }
